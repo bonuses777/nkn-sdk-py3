@@ -11,9 +11,9 @@ setuptools.setup(
     description='NKN client and wallet SDK',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url='https://github.com/nknorg/nkn-sdk-py3',
+    url='https://github.com/bonuses777/nkn-sdk-py3',
     packages=setuptools.find_packages(),
-    install_requires=['pynacl', 'pycrypto', 'base58', 'requests', 'protobuf'],
+    install_requires=['pynacl', 'pycryptodome', 'base58', 'requests', 'protobuf'],
     python_requires='>=3.3',
     classifiers=[
         "Programming Language :: Python :: 3",
